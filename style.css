@@ -1,0 +1,329 @@
+.home-B{
+    background-color: blue;
+    margin: 0px;
+    padding: 0;
+    
+}
+.container{
+    background-color: transparent;
+    width: 100%;
+}
+.title{
+    width: 100%;
+    height: 20%;
+    background: url();
+    background-size: cover;
+    overflow: hidden;
+    
+}
+h1{
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+ p{
+    text-align: center;
+    line-height: 20px;
+    color:  white;
+    font-size: 40;
+    font-family: arial;
+}
+.socials{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.socials i{
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.socials ul i{
+    padding-left: 15px;
+    font-size: 24px;
+   transition: .3s;
+   
+   
+   
+}
+.socials i :hover{
+    background: white;
+    color: blueviolet;
+}
+.socials a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-family: 200;
+    padding-left: 20px;
+   
+}
+.first-tex{
+    color: rgb(17, 16, 16);
+    font-weight: 500;
+    font-size: 22px;
+    padding-left: 50px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+.search input[type=text] {
+  display: flex;
+  margin-bottom: 10px;
+    margin-top: 5px;
+    width: 20%;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color:  aliceblue;
+    position:absolute;
+}
+ .search button {
+    width: 8px;
+    height: 8px;
+    border: none;
+    display: block;
+    position: absolute;
+    top: 94px;
+    left: 60%;
+
+    
+}
+ .search button img {
+    width: 20px;
+    height: 24px;
+    background-color:  rgb(63, 60, 60);
+    border-radius: 5px;
+}
+
+.Nav-bar{
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    height: 100px;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.Nav-bar ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 700px;
+    
+}
+.Nav-bar ul li{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    top: 0;
+    line-height: 80px;
+    left: 0px;
+    color: black;
+    cursor: pointer;
+    
+    
+
+}
+.Banner-area{
+    background-image: url(.//Images/bg1.webp);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.Banner-area p{
+    font-size: 30px;
+}
+.Banner-area a {
+    background: rgb(5, 72, 134);
+    border: 0;
+    outline: 0;
+    color: rgb(248, 245, 245);
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 8px 50px;
+    border-radius: 10px;
+    line-height: 20px;
+
+}
+.Banner-area a:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.footer{
+    background-color: rgb(58, 53, 57);
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    font-size: 50px;
+}
+.footer-content{
+    background-color: rgb(231, 21, 21);
+    width: 100%;
+    height: 200px;
+}
+ .footer-cont-left, .footer-cont-rigt,.footer-cont-center{
+    width: 33%;
+    height: 40vh;
+    float: left;
+    color: white;
+}
+.footer-cont-left{
+    background-color: rgb(94, 94, 99);
+    border-right: solid black;
+    font-size: 22px;
+}
+.footer-cont-left h3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+.footer-cont-rigt{
+    background-color:rgb(94, 94, 99);
+    justify-content: center;
+    font-size: 22px;
+}
+.footer-cont-rigt h3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+.footer-cont-center{
+    border-right: solid black;
+   
+    background-color: rgb(94, 94, 99);
+    font-size: 22px;
+}
+.footer-cont-center h3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.
+  /*..............CONTACT STARTS HERE...............*/
+
+  .cont-B{
+    margin: 0;
+    padding: 0;
+  }
+  .contactuscontainer{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(71, 130, 241);
+	margin-top: 70px;
+	margin-bottom: 200px;
+	margin-right: 150px;
+	margin-left: 280px;
+	height: 610px;
+	border-radius: 20px;
+	align-items: center;
+	width: 1000px;
+	box-shadow: 10px 20px 30px rgb(166, 167, 166);
+
+}
+
+
+.contactusinputbox{
+	height: 30px;
+	width: 300px;
+	text-align: center;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	background-color: white;
+	border-bottom: 1px solid black;
+    padding: 0;
+
+}
+
+.contactustextarea{
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 15px;
+}
+
+.contactustext{
+	color: rgb(16, 17, 16);
+	font-size: 18px;
+    text-align: center;
+}
+
+.contacthorizontalrule{
+	border: 3px solid rgb(23, 24, 23);
+	width: 300px;
+	border-radius: 20px;
+    
+}
+
+.contactusbutton{
+	background-color: rgb(55, 58, 59);
+	height: 20px;
+	width: 70px;
+	color: white;
+	border-radius: 10px;
+}
+
+.contactusbutton:hover{
+	background-color: darkgray;
+}
+
+.contactuslabel{
+	color: rgb(34, 36, 34);
+	font-size: 12px;
+}
+
+.email{
+	text-decoration: none;
+	color: darkblue;
+	font-size: 19px;
+}
+.email:hover{
+	color: rgb(238, 234, 230);
+}
+
+.contactustable{
+	border-spacing: 1px;
+}
+
+.contactustd1{
+	text-align: center;
+	padding-right: 120px;
+}
+
+.contactustd2{
+	text-align: center;
+}
+
+
+
+
+}
+@media screen(950px) {
+    .container{
+        max-width: 40px;
+        
+    }
+}
+body {
+  background-image: url("image.jpg");}
+  h2{
+    text-align: center;
+    line-height: 20px;
+    color: white;}
+    h3{
+    text-align: center;
+    line-height: 20px;
+      color: white;}
